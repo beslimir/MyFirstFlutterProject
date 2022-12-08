@@ -15,17 +15,12 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: const Center(
-          child: Text(
-            'Hello everyone',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey,
-              fontFamily: 'IndieFlower',
-            ),
-          )
+      body: Center(
+          // child: Image(
+          //     // image: NetworkImage('https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-1030x644.jpg')
+          //   image: AssetImage('assets/space3.jpg'),
+          // ),
+        child: Image.asset('assets/space2.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
